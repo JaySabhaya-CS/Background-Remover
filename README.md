@@ -1,6 +1,11 @@
 # Background-Remover
 This is a python scrip to remove background from images. It can keep track of images that has been processed, process images from folder, output files with same file name as original. It is based on python library rembg.
 
+    """
+    This file contains functions for data processing, originally developed by @github_username.
+    See: [https://github.com/danielgatis]
+    """
+ 
 ## Requirements
 
 ```
@@ -15,9 +20,9 @@ https://github.com/danielgatis/rembg
 
 ## Use Case
 
-1.) Add path to folder containing images to be processed 'dataset_folder' variable.
-2.) Select 'sample_size'. This variable takes number of images to process. from all the images in a folder. I have used random sampling so that I can process certain number randomly selected files for immediate use. This way I can save storage space.
-3.) Select model for processing images. Different models can have different quality output. Please refer to list of all available models below.
+1.) Add path to folder containing images to be processed 'dataset_folder' variable.  
+2.) Select 'sample_size'. This variable takes number of images to process. from all the images in a folder. I have used random sampling so that I can process certain number randomly selected files for immediate use. This way I can save storage space.  
+3.) Select model for processing images. Different models can have different quality output. Please refer to list of all available models below.  
 
 ## Model
 
